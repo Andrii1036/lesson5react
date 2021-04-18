@@ -1,0 +1,8 @@
+.MainContent{
+    display:flex;
+    flex-direction:column;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}

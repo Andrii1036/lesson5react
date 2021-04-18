@@ -13,7 +13,7 @@ export function MainContent() {
             <Route path='/RickAndMorty'>
                 <RickAndMorty/>               
             </Route>
-            <Route path='/Futurama' exact>
+            <Route path='/Futurama' >
                 <Futurama/>               
             </Route>
         </div>

@@ -1,9 +1,9 @@
 import React from 'react'
 import { useParams } from 'react-router';
 import style from '../CentralContent/CentralContent.module.css'
-export function CentralSingleContent({content,text}){
+export function CentralSingleContentFuturama({content,text}){
     const {characters}=useParams()
-    const result = content.filter(elem=> elem.name.first === characters)
+    const result = content.filter(elem=> elem.name?.first === characters)
     console.log(characters)
     console.log(result)
     return(
@@ -18,4 +18,4 @@ export function CentralSingleContent({content,text}){
             </div>
     )
 }
-export default CentralSingleContent;
+export default CentralSingleContentFuturama;

@@ -3,7 +3,6 @@ import { useParams } from 'react-router';
 import style from '../CentralContent/CentralContent.module.css'
 export function CentralSingleContent({ content, text }) {
     const { characters } = useParams()
-    console.log(characters)
     const result = content.filter(elem => elem.name === characters)
     return (
         <div className={style.Elem}>
